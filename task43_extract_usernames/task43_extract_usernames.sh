@@ -4,8 +4,7 @@
 # Script Name: task43_extract_usernames.sh
 # Description: Extracts all usernames from /etc/passwd
 #              and saves them to userlist.txt
-# Author: [Your Name]
-# Date: [Today's Date]
+# Name : Rahul Kumar
 # ------------------------------------------------------------
 
 # Output file

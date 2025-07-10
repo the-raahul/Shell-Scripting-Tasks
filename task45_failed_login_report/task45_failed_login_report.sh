@@ -3,8 +3,7 @@
 # ------------------------------------------------------------
 # Script Name: task45_failed_login_report.sh
 # Description: Displays the last 10 failed SSH login attempts
-# Author: [Your Name]
-# Date: [Today's Date]
+# Name : Rahul Kumar
 # ------------------------------------------------------------
 
 # Output file

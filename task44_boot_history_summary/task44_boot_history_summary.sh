@@ -3,8 +3,7 @@
 # ------------------------------------------------------------
 # Script Name: task44_boot_history_summary.sh
 # Description: Displays the 5 most recent system boots
-# Author: [Your Name]
-# Date: [Today's Date]
+# Name : Rahul Kumar
 # ------------------------------------------------------------
 
 # Output file

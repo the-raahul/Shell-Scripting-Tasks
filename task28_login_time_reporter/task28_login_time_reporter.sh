@@ -3,11 +3,10 @@
 # ------------------------------------------------------------
 # Script Name: task28_login_time_reporter.sh
 # Description: Shows total login time per user in minutes
-# Author: [Your Name]
-# Date: [Today's Date]
+# Name : Rahul Kumar
 # ------------------------------------------------------------
 
-OUTPUT_FILE="weekly_login_report.txt"
+OUTPUT_FILE="rahul_login_report.txt"
 
 # Create or clear the output file
 echo "User      | Total Minutes Logged In" > "$OUTPUT_FILE"

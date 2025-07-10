@@ -4,8 +4,7 @@
 # Script Name: task15_kernel_version_checker.sh
 # Description: Compares current kernel version with latest available
 #              and alerts if outdated. Supports Debian, RHEL, and Arch.
-# Author: [Your Name]
-# Date: [Today's Date]
+# Name : Rahul Kumar
 # ------------------------------------------------------------
 
 LOG_FILE="/var/log/kernel_version_check.log"
@@ -21,7 +20,7 @@ elif [ -f /etc/redhat-release ]; then
 elif grep -qi "arch" /etc/os-release; then
     OS="arch"
 else
-    echo "❌ Unsupported OS." | tee -a "$LOG_FILE"
+    echo "Unsupported OS." | tee -a "$LOG_FILE"
     exit 1
 fi
 
@@ -43,10 +42,10 @@ echo "Latest Available Kernel: $LATEST_KERNEL" | tee -a "$LOG_FILE"
 
 # Final check
 if [[ "$LATEST_KERNEL" != "" && "$CURRENT_KERNEL" != "$LATEST_KERNEL" ]]; then
-    echo -e "\n⚠️  Kernel update available. Please update your system."
+    echo -e "\n  Kernel update available. Please update your system."
     echo "$(date): Kernel is outdated." >> "$LOG_FILE"
 else
-    echo -e "\n✅  Kernel is up to date."
+    echo -e "\n Kernel is up to date."
     echo "$(date): Kernel is up to date." >> "$LOG_FILE"
 fi
 
