@@ -1,0 +1,20 @@
+# Swap and temp files
+*~
+*.swp
+*.tmp
+*.bak
+
+# Logs
+*.log
+
+# Archives
+*.tar
+*.gz
+*.zip
+
+# Core dumps
+core
+
+# Editor-specific
+.vscode/
+.idea/
