@@ -1,0 +1,3 @@
+User      | Total Minutes Logged In
+-------------------------------
+sora      | 3840
